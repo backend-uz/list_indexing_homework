@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = list1.replace('1', 'True')
+    return i
