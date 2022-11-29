@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    a = list1
+    i = 0
+    while i < len(a):
+        if a[i] == 0:
+            a[i] = False
+        i +=1
+    return a
