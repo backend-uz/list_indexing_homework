@@ -15,4 +15,3 @@ def main(list1):
             a[i] = False
         i +=1
     return a
-print(main[1, 2, 3])
