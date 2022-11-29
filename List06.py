@@ -6,5 +6,9 @@ def main(list1):
     Returns:
         list: return answer
     """
-    i = list1.replace('1', 'True')
-    return i
+    i = 0
+    while i < len(list1):
+        if list1[i] == 1:
+            list1[i].replace('1', 'True')
+        i +=1
+    return list1
