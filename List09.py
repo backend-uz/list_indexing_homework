@@ -7,12 +7,11 @@ def main(list1):
         bool: return answer
     """
     i = 1
-    a = 0
+    
     while i < len(list1):
         if list1[0] == list1[i]:
-           a = True
+            return True
         else:
-            a = False
+            return False
     i +=1
-    return a
 print(main([1,1,1,1]))
